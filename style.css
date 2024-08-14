@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+*{
+    margin: 11px;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Courier Prime", monospace;
+}
+
+body{
+    background: url('images/autumn-leaves-composition.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.stopwatch{
+    width: 80%;
+    max-width: 600px;
+    background: rgba(2, 69, 136, 0.1),url(images/background.png);
+    background-size: cover;
+    background-position:center;
+    text-align: center;
+    padding: 80px 0;
+    color: #fff;
+    margin: 200px auto 0;
+}
+.stopwatch h1{
+    margin-top: 60px;
+    font-size: 64px;
+    font-weight: 300;
+}
+.buttons{
+   display: flex;
+   align-items: center;
+   justify-content: center; 
+}
+.button img{
+    width: 50px;
+    margin: 0 70px;
+    cursor: pointer;
+}
+.button img:nth-child(2){
+    width: 80px;
+}
